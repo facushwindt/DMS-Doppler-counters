@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EE08D061649EECF001D3A8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE08D051649EECF001D3A8C /* UIKit.framework */; };
+		6EE08D081649EECF001D3A8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE08D071649EECF001D3A8C /* Foundation.framework */; };
+		6EE08D0A1649EECF001D3A8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE08D091649EECF001D3A8C /* CoreGraphics.framework */; };
+		6EE08D101649EECF001D3A8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EE08D0E1649EECF001D3A8C /* InfoPlist.strings */; };
+		6EE08D121649EECF001D3A8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE08D111649EECF001D3A8C /* main.m */; };
+		6EE08D161649EECF001D3A8C /* DopplerCounterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE08D151649EECF001D3A8C /* DopplerCounterAppDelegate.m */; };
+		6EE08D191649EECF001D3A8C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE08D171649EECF001D3A8C /* MainStoryboard_iPhone.storyboard */; };
+		6EE08D1C1649EECF001D3A8C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE08D1A1649EECF001D3A8C /* MainStoryboard_iPad.storyboard */; };
+		6EE08D1F1649EECF001D3A8C /* DopplerCounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE08D1E1649EECF001D3A8C /* DopplerCounterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EE08D011649EECF001D3A8C /* DMS Doppler Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DMS Doppler Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE08D051649EECF001D3A8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6EE08D071649EECF001D3A8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6EE08D091649EECF001D3A8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6EE08D0D1649EECF001D3A8C /* DMS Doppler Counter-Info.plist */ = {isa = PBXFileReference; path = "DMS Doppler Counter-Info.plist"; sourceTree = "<group>"; };
+		6EE08D0F1649EECF001D3A8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EE08D111649EECF001D3A8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EE08D131649EECF001D3A8C /* DMS Doppler Counter-Prefix.pch */ = {isa = PBXFileReference; path = "DMS Doppler Counter-Prefix.pch"; sourceTree = "<group>"; };
+		6EE08D141649EECF001D3A8C /* DopplerCounterAppDelegate.h */ = {isa = PBXFileReference; path = DopplerCounterAppDelegate.h; sourceTree = "<group>"; };
+		6EE08D151649EECF001D3A8C /* DopplerCounterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DopplerCounterAppDelegate.m; sourceTree = "<group>"; };
+		6EE08D181649EECF001D3A8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		6EE08D1B1649EECF001D3A8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		6EE08D1D1649EECF001D3A8C /* DopplerCounterViewController.h */ = {isa = PBXFileReference; path = DopplerCounterViewController.h; sourceTree = "<group>"; };
+		6EE08D1E1649EECF001D3A8C /* DopplerCounterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DopplerCounterViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EE08CFE1649EECF001D3A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE08D061649EECF001D3A8C /* UIKit.framework in Frameworks */,
+				6EE08D081649EECF001D3A8C /* Foundation.framework in Frameworks */,
+				6EE08D0A1649EECF001D3A8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EE08CF61649EECE001D3A8C = {
+			isa = PBXGroup;
+			children = (
+				6EE08D0B1649EECF001D3A8C /* DMS Doppler Counter */,
+				6EE08D041649EECF001D3A8C /* Frameworks */,
+				6EE08D021649EECF001D3A8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EE08D021649EECF001D3A8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EE08D011649EECF001D3A8C /* DMS Doppler Counter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EE08D041649EECF001D3A8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EE08D051649EECF001D3A8C /* UIKit.framework */,
+				6EE08D071649EECF001D3A8C /* Foundation.framework */,
+				6EE08D091649EECF001D3A8C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EE08D0B1649EECF001D3A8C /* DMS Doppler Counter */ = {
+			isa = PBXGroup;
+			children = (
+				6EE08D141649EECF001D3A8C /* DopplerCounterAppDelegate.h */,
+				6EE08D151649EECF001D3A8C /* DopplerCounterAppDelegate.m */,
+				6EE08D171649EECF001D3A8C /* MainStoryboard_iPhone.storyboard */,
+				6EE08D1A1649EECF001D3A8C /* MainStoryboard_iPad.storyboard */,
+				6EE08D1D1649EECF001D3A8C /* DopplerCounterViewController.h */,
+				6EE08D1E1649EECF001D3A8C /* DopplerCounterViewController.m */,
+				6EE08D0C1649EECF001D3A8C /* Supporting Files */,
+			);
+			path = "DMS Doppler Counter";
+			sourceTree = "<group>";
+		};
+		6EE08D0C1649EECF001D3A8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EE08D0D1649EECF001D3A8C /* DMS Doppler Counter-Info.plist */,
+				6EE08D0E1649EECF001D3A8C /* InfoPlist.strings */,
+				6EE08D111649EECF001D3A8C /* main.m */,
+				6EE08D131649EECF001D3A8C /* DMS Doppler Counter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EE08D001649EECF001D3A8C /* DMS Doppler Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE08D221649EECF001D3A8C /* Build configuration list for PBXNativeTarget "DMS Doppler Counter" */;
+			buildPhases = (
+				6EE08CFD1649EECF001D3A8C /* Sources */,
+				6EE08CFE1649EECF001D3A8C /* Frameworks */,
+				6EE08CFF1649EECF001D3A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DMS Doppler Counter";
+			productName = "DMS Doppler Counter";
+			productReference = 6EE08D011649EECF001D3A8C /* DMS Doppler Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EE08CF81649EECE001D3A8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DopplerCounter;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6EE08CFB1649EECE001D3A8C /* Build configuration list for PBXProject "DMS Doppler Counter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6EE08CF61649EECE001D3A8C;
+			productRefGroup = 6EE08D021649EECF001D3A8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EE08D001649EECF001D3A8C /* DMS Doppler Counter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EE08CFF1649EECF001D3A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE08D101649EECF001D3A8C /* InfoPlist.strings in Resources */,
+				6EE08D191649EECF001D3A8C /* MainStoryboard_iPhone.storyboard in Resources */,
+				6EE08D1C1649EECF001D3A8C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EE08CFD1649EECF001D3A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE08D121649EECF001D3A8C /* main.m in Sources */,
+				6EE08D161649EECF001D3A8C /* DopplerCounterAppDelegate.m in Sources */,
+				6EE08D1F1649EECF001D3A8C /* DopplerCounterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EE08D0E1649EECF001D3A8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE08D0F1649EECF001D3A8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6EE08D171649EECF001D3A8C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE08D181649EECF001D3A8C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6EE08D1A1649EECF001D3A8C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE08D1B1649EECF001D3A8C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EE08D201649EECF001D3A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EE08D211649EECF001D3A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EE08D231649EECF001D3A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMS Doppler Counter/DMS Doppler Counter-Prefix.pch";
+				INFOPLIST_FILE = "DMS Doppler Counter/DMS Doppler Counter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6EE08D241649EECF001D3A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DMS Doppler Counter/DMS Doppler Counter-Prefix.pch";
+				INFOPLIST_FILE = "DMS Doppler Counter/DMS Doppler Counter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EE08CFB1649EECE001D3A8C /* Build configuration list for PBXProject "DMS Doppler Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE08D201649EECF001D3A8C /* Debug */,
+				6EE08D211649EECF001D3A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EE08D221649EECF001D3A8C /* Build configuration list for PBXNativeTarget "DMS Doppler Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE08D231649EECF001D3A8C /* Debug */,
+				6EE08D241649EECF001D3A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EE08CF81649EECE001D3A8C /* Project object */;
+}
