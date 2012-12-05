@@ -10,6 +10,6 @@
 
 @interface ClockBViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIPageControl *clockBPageController;
+@property (weak, nonatomic) IBOutlet UIPageControl *clockBPageController ;
 
 @end
