@@ -25,6 +25,7 @@
 @synthesize dec7;
 @synthesize dec8;
 @synthesize dec9;
+@synthesize clockAPageControl = _clockAPageControl;
 
 - (void)viewDidLoad
 {
@@ -45,6 +46,7 @@
     [self setDec7:nil];
     [self setDec8:nil];
     [self setDec9:nil];
+    [self setClockAPageControl:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -224,5 +226,8 @@
                     }];
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [self.clockAPageControl setCurrentPage:0];
+}
 
 @end

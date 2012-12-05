@@ -22,5 +22,6 @@
 @property (weak, nonatomic) IBOutlet UIImageView *dec8;
 @property (weak, nonatomic) IBOutlet UIImageView *dec9;
 
+@property (weak, nonatomic) IBOutlet UIPageControl *clockAPageControl;
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E25B9C2166F913600D70046 /* ClockBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E25B9C1166F913600D70046 /* ClockBViewController.m */; };
 		6EE08D061649EECF001D3A8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE08D051649EECF001D3A8C /* UIKit.framework */; };
 		6EE08D081649EECF001D3A8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE08D071649EECF001D3A8C /* Foundation.framework */; };
 		6EE08D0A1649EECF001D3A8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE08D091649EECF001D3A8C /* CoreGraphics.framework */; };
@@ -29,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E25B9C0166F913600D70046 /* ClockBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockBViewController.h; sourceTree = "<group>"; };
+		6E25B9C1166F913600D70046 /* ClockBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockBViewController.m; sourceTree = "<group>"; };
 		6EE08D011649EECF001D3A8C /* DMS Doppler Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DMS Doppler Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE08D051649EECF001D3A8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6EE08D071649EECF001D3A8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -113,6 +116,8 @@
 				6EE08D1A1649EECF001D3A8C /* MainStoryboard_iPad.storyboard */,
 				6EE08D1D1649EECF001D3A8C /* DopplerCounterViewController.h */,
 				6EE08D1E1649EECF001D3A8C /* DopplerCounterViewController.m */,
+				6E25B9C0166F913600D70046 /* ClockBViewController.h */,
+				6E25B9C1166F913600D70046 /* ClockBViewController.m */,
 				6EE08D0C1649EECF001D3A8C /* Supporting Files */,
 			);
 			path = "DMS Doppler Counter";
@@ -208,6 +213,7 @@
 				6EE08D121649EECF001D3A8C /* main.m in Sources */,
 				6EE08D161649EECF001D3A8C /* DopplerCounterAppDelegate.m in Sources */,
 				6EE08D1F1649EECF001D3A8C /* DopplerCounterViewController.m in Sources */,
+				6E25B9C2166F913600D70046 /* ClockBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +335,7 @@
 				6EE08D241649EECF001D3A8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
