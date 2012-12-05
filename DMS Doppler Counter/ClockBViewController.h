@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ClockBViewController : UIViewController
+
 @property (weak, nonatomic) IBOutlet UIPageControl *clockBPageController;
 
 @end
