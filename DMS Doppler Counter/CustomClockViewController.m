@@ -1,18 +1,18 @@
 //
-//  ClockEViewController.m
+//  CustomClockViewController.m
 //  DMS Doppler Counter
 //
-//  Created by facundo schwindt on 10/12/12.
+//  Created by facundo schwindt on 23/12/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "ClockEViewController.h"
+#import "CustomClockViewController.h"
 
-@interface ClockEViewController ()
+@interface CustomClockViewController ()
 
 @end
 
-@implementation ClockEViewController
+@implementation CustomClockViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -25,9 +25,14 @@
 
 - (void)viewDidLoad
 {
+	// Do any additional setup after loading the view, typically from a nib.
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    
+	[self addChildViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"ViewA"]];
+	[self addChildViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"ViewB"]];
+	[self addChildViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"ViewC"]];
 }
+
 
 - (void)viewDidUnload
 {

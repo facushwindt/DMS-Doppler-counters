@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ClockCViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIPageControl *clockCPageControl;
+@property (weak, nonatomic) IBOutlet UILabel *clockDValue;
+@property (weak, nonatomic) IBOutlet UIImageView *needleD;
+
+@property (weak, nonatomic) IBOutlet UILabel *clockEValue;
+@property (weak, nonatomic) IBOutlet UIImageView *needleE;
 
 @end

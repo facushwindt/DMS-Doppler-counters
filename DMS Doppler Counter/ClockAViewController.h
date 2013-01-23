@@ -10,5 +10,6 @@
 
 @interface ClockAViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *needleA;
 @property (weak, nonatomic) IBOutlet UILabel *clockValue;
 @end

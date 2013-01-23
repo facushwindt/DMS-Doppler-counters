@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 #define DOPPLER_EMAILS_SENT_TODAY 0
-#define DOPPLER_EMAILS_SINCE_START_UP 1
+#define DOPPLER_EMAILS_SINCE_START_UP 1  //historyEmailsSent
 #define DOPPLER_CAMPAIGNS_SENT_TODAY 2
-#define DOPPLER_CAMPAIGNS_SENT_SINCE_START_UP 3
+#define DOPPLER_CAMPAIGNS_SENT_SINCE_START_UP 3 //historyCampaignsSent
 #define DOPPLER_DAYS_SINCE_START_UP 4
 
 #define DOPPLER_FAST_PRE_QUEUE_LENGHT 5
@@ -19,13 +19,22 @@
 #define DOPPLER_FAST_RESPONSE_QUEUE 7
 #define DOPPLER_NORMAL_RESPONSE_QUEUE 8
 #define DOPPLER_SENDING_QUEUE_STATUS 9
+
 #define DOPPLER_AVERAGE_EMAILS_PER_HOUR_TODAY 10
 #define DOPPLER_AVERAGE_EMAILS_PER_HOUR_SINCE_START_UP 11
 #define DOPPLER_LARGETS_SENT_CAMPAIGN 12
 
+//maximun queues !
+#define DOPPLER_FAST_PRE_QUEUE_LENGHT_MAX 30
+#define DOPPLER_NORMAL_PRE_QUEUE_LENGHT_MAX 30
+#define DOPPLER_FAST_RESPONSE_QUEUE_MAX 500
+#define DOPPLER_NORMAL_RESPONSE_QUEUE_MAX 500
+#define DOPPLER_SENDING_QUEUE_STATUS_MAX 30
+
 @interface CounterRequest : NSObject
 
-+(NSMutableArray*)start; // retorna el arreglo los values del request
++(NSMutableArray*)getArrayOfUserDefault;
++(void)start; // retorna el arreglo los values del request
 
 // esto devuelve algo como
 //Counter[7890:f803] (

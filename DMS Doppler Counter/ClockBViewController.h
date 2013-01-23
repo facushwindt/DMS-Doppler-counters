@@ -10,7 +10,11 @@
 
 @interface ClockBViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIPageControl *clockBPageController ;
+@property (weak, nonatomic) IBOutlet UILabel *clockBValue;
+@property (weak, nonatomic) IBOutlet UIImageView *needleB;
 
+
+@property (weak, nonatomic) IBOutlet UILabel *clockCValue;
+@property (weak, nonatomic) IBOutlet UIImageView *needleC;
 
 @end

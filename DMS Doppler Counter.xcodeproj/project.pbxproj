@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0659EC169C9C96004ACFA5 /* PageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0659EB169C9C96004ACFA5 /* PageControl.m */; };
 		6E25B9C2166F913600D70046 /* ClockBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E25B9C1166F913600D70046 /* ClockBViewController.m */; };
 		6E25B9D2166FB77700D70046 /* ClockCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E25B9D1166FB77700D70046 /* ClockCViewController.m */; };
+		6E296C3F1687AD47002A1402 /* ClockMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E296C3E1687AD47002A1402 /* ClockMainViewController.m */; };
+		6E296C431687AEA6002A1402 /* CustomClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E296C421687AEA6002A1402 /* CustomClockViewController.m */; };
 		6E6977871676175B00AD2907 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6977861676175B00AD2907 /* arrow.png */; };
 		6E69778D16761C6F00AD2907 /* logoDopplerMedium.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E69778C16761C6F00AD2907 /* logoDopplerMedium.png */; };
 		6E69778F1676217300AD2907 /* backgroundClock.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E69778E1676217300AD2907 /* backgroundClock.png */; };
 		6E697792167627D700AD2907 /* ClockAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E697791167627D700AD2907 /* ClockAViewController.m */; };
-		6E6977951676302D00AD2907 /* ClockDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6977941676302C00AD2907 /* ClockDViewController.m */; };
-		6E6977981676305100AD2907 /* ClockEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6977971676305100AD2907 /* ClockEViewController.m */; };
 		6E6977A21676500500AD2907 /* CounterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6977A11676500500AD2907 /* CounterRequest.m */; };
 		6E6A30D016739E53009BDE91 /* IOS_CounterApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6A30CF16739E53009BDE91 /* IOS_CounterApp.png */; };
+		6E852FD116A4DD1C00045041 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E852FCF16A4D92700045041 /* Default@2x.png */; };
+		6EC038E0168E6A8B00CEBAB2 /* buttonForDrag.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EC038DF168E6A8B00CEBAB2 /* buttonForDrag.png */; };
+		6EC038ED168E7B1D00CEBAB2 /* logoDopplerLitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EC038EC168E7B1D00CEBAB2 /* logoDopplerLitle.png */; };
+		6EC038EF168F1E5500CEBAB2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC038EE168F1E5500CEBAB2 /* QuartzCore.framework */; };
 		6EE08D061649EECF001D3A8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE08D051649EECF001D3A8C /* UIKit.framework */; };
 		6EE08D081649EECF001D3A8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE08D071649EECF001D3A8C /* Foundation.framework */; };
 		6EE08D0A1649EECF001D3A8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE08D091649EECF001D3A8C /* CoreGraphics.framework */; };
@@ -26,35 +31,33 @@
 		6EE08D191649EECF001D3A8C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE08D171649EECF001D3A8C /* MainStoryboard_iPhone.storyboard */; };
 		6EE08D1C1649EECF001D3A8C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE08D1A1649EECF001D3A8C /* MainStoryboard_iPad.storyboard */; };
 		6EE08D1F1649EECF001D3A8C /* DopplerCounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE08D1E1649EECF001D3A8C /* DopplerCounterViewController.m */; };
-		6EE08D2F1649F4AA001D3A8C /* card0.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE08D251649F4AA001D3A8C /* card0.png */; };
-		6EE08D301649F4AA001D3A8C /* card1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE08D261649F4AA001D3A8C /* card1.png */; };
-		6EE08D311649F4AA001D3A8C /* card2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE08D271649F4AA001D3A8C /* card2.png */; };
-		6EE08D321649F4AA001D3A8C /* card3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE08D281649F4AA001D3A8C /* card3.png */; };
-		6EE08D331649F4AA001D3A8C /* card4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE08D291649F4AA001D3A8C /* card4.png */; };
-		6EE08D341649F4AA001D3A8C /* card5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE08D2A1649F4AA001D3A8C /* card5.png */; };
-		6EE08D351649F4AA001D3A8C /* card6.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE08D2B1649F4AA001D3A8C /* card6.png */; };
-		6EE08D361649F4AA001D3A8C /* card7.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE08D2C1649F4AA001D3A8C /* card7.png */; };
-		6EE08D371649F4AA001D3A8C /* card8.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE08D2D1649F4AA001D3A8C /* card8.png */; };
-		6EE08D381649F4AA001D3A8C /* card9.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE08D2E1649F4AA001D3A8C /* card9.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E0659EA169C9C96004ACFA5 /* PageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControl.h; sourceTree = "<group>"; };
+		6E0659EB169C9C96004ACFA5 /* PageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControl.m; sourceTree = "<group>"; };
 		6E25B9C0166F913600D70046 /* ClockBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockBViewController.h; sourceTree = "<group>"; };
 		6E25B9C1166F913600D70046 /* ClockBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockBViewController.m; sourceTree = "<group>"; };
 		6E25B9D0166FB77700D70046 /* ClockCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockCViewController.h; sourceTree = "<group>"; };
 		6E25B9D1166FB77700D70046 /* ClockCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockCViewController.m; sourceTree = "<group>"; };
+		6E296C3D1687AD47002A1402 /* ClockMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockMainViewController.h; sourceTree = "<group>"; };
+		6E296C3E1687AD47002A1402 /* ClockMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockMainViewController.m; sourceTree = "<group>"; };
+		6E296C411687AEA6002A1402 /* CustomClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomClockViewController.h; sourceTree = "<group>"; };
+		6E296C421687AEA6002A1402 /* CustomClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomClockViewController.m; sourceTree = "<group>"; };
 		6E6977861676175B00AD2907 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		6E69778C16761C6F00AD2907 /* logoDopplerMedium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoDopplerMedium.png; sourceTree = "<group>"; };
 		6E69778E1676217300AD2907 /* backgroundClock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundClock.png; sourceTree = "<group>"; };
 		6E697790167627D700AD2907 /* ClockAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockAViewController.h; sourceTree = "<group>"; };
 		6E697791167627D700AD2907 /* ClockAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockAViewController.m; sourceTree = "<group>"; };
-		6E6977931676302C00AD2907 /* ClockDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockDViewController.h; sourceTree = "<group>"; };
-		6E6977941676302C00AD2907 /* ClockDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockDViewController.m; sourceTree = "<group>"; };
-		6E6977961676305100AD2907 /* ClockEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockEViewController.h; sourceTree = "<group>"; };
-		6E6977971676305100AD2907 /* ClockEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockEViewController.m; sourceTree = "<group>"; };
 		6E6977A01676500500AD2907 /* CounterRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterRequest.h; sourceTree = "<group>"; };
 		6E6977A11676500500AD2907 /* CounterRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterRequest.m; sourceTree = "<group>"; };
 		6E6A30CF16739E53009BDE91 /* IOS_CounterApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IOS_CounterApp.png; sourceTree = "<group>"; };
+		6E852FCB16A4D86D00045041 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		6E852FCD16A4D89F00045041 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6E852FCF16A4D92700045041 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6EC038DF168E6A8B00CEBAB2 /* buttonForDrag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonForDrag.png; sourceTree = "<group>"; };
+		6EC038EC168E7B1D00CEBAB2 /* logoDopplerLitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoDopplerLitle.png; sourceTree = "<group>"; };
+		6EC038EE168F1E5500CEBAB2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6EE08D011649EECF001D3A8C /* DMS Doppler Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DMS Doppler Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE08D051649EECF001D3A8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6EE08D071649EECF001D3A8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,16 +72,6 @@
 		6EE08D1B1649EECF001D3A8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		6EE08D1D1649EECF001D3A8C /* DopplerCounterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DopplerCounterViewController.h; sourceTree = "<group>"; };
 		6EE08D1E1649EECF001D3A8C /* DopplerCounterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DopplerCounterViewController.m; sourceTree = "<group>"; };
-		6EE08D251649F4AA001D3A8C /* card0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card0.png; sourceTree = "<group>"; };
-		6EE08D261649F4AA001D3A8C /* card1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card1.png; sourceTree = "<group>"; };
-		6EE08D271649F4AA001D3A8C /* card2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card2.png; sourceTree = "<group>"; };
-		6EE08D281649F4AA001D3A8C /* card3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card3.png; sourceTree = "<group>"; };
-		6EE08D291649F4AA001D3A8C /* card4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card4.png; sourceTree = "<group>"; };
-		6EE08D2A1649F4AA001D3A8C /* card5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card5.png; sourceTree = "<group>"; };
-		6EE08D2B1649F4AA001D3A8C /* card6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card6.png; sourceTree = "<group>"; };
-		6EE08D2C1649F4AA001D3A8C /* card7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card7.png; sourceTree = "<group>"; };
-		6EE08D2D1649F4AA001D3A8C /* card8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card8.png; sourceTree = "<group>"; };
-		6EE08D2E1649F4AA001D3A8C /* card9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = card9.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC038EF168F1E5500CEBAB2 /* QuartzCore.framework in Frameworks */,
 				6EE08D061649EECF001D3A8C /* UIKit.framework in Frameworks */,
 				6EE08D081649EECF001D3A8C /* Foundation.framework in Frameworks */,
 				6EE08D0A1649EECF001D3A8C /* CoreGraphics.framework in Frameworks */,
@@ -98,6 +92,9 @@
 		6EE08CF61649EECE001D3A8C = {
 			isa = PBXGroup;
 			children = (
+				6E852FCF16A4D92700045041 /* Default@2x.png */,
+				6E852FCD16A4D89F00045041 /* Default.png */,
+				6E852FCB16A4D86D00045041 /* Default-Portrait@2x~ipad.png */,
 				6EE08D0B1649EECF001D3A8C /* DMS Doppler Counter */,
 				6EE08D041649EECF001D3A8C /* Frameworks */,
 				6EE08D021649EECF001D3A8C /* Products */,
@@ -115,6 +112,7 @@
 		6EE08D041649EECF001D3A8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6EC038EE168F1E5500CEBAB2 /* QuartzCore.framework */,
 				6EE08D051649EECF001D3A8C /* UIKit.framework */,
 				6EE08D071649EECF001D3A8C /* Foundation.framework */,
 				6EE08D091649EECF001D3A8C /* CoreGraphics.framework */,
@@ -125,22 +123,20 @@
 		6EE08D0B1649EECF001D3A8C /* DMS Doppler Counter */ = {
 			isa = PBXGroup;
 			children = (
+				6EC038DF168E6A8B00CEBAB2 /* buttonForDrag.png */,
 				6E69778E1676217300AD2907 /* backgroundClock.png */,
 				6E69778C16761C6F00AD2907 /* logoDopplerMedium.png */,
+				6EC038EC168E7B1D00CEBAB2 /* logoDopplerLitle.png */,
 				6E6977861676175B00AD2907 /* arrow.png */,
 				6E6A30CF16739E53009BDE91 /* IOS_CounterApp.png */,
-				6EE08D251649F4AA001D3A8C /* card0.png */,
-				6EE08D261649F4AA001D3A8C /* card1.png */,
-				6EE08D271649F4AA001D3A8C /* card2.png */,
-				6EE08D281649F4AA001D3A8C /* card3.png */,
-				6EE08D291649F4AA001D3A8C /* card4.png */,
-				6EE08D2A1649F4AA001D3A8C /* card5.png */,
-				6EE08D2B1649F4AA001D3A8C /* card6.png */,
-				6EE08D2C1649F4AA001D3A8C /* card7.png */,
-				6EE08D2D1649F4AA001D3A8C /* card8.png */,
-				6EE08D2E1649F4AA001D3A8C /* card9.png */,
 				6EE08D171649EECF001D3A8C /* MainStoryboard_iPhone.storyboard */,
 				6EE08D1A1649EECF001D3A8C /* MainStoryboard_iPad.storyboard */,
+				6E0659EA169C9C96004ACFA5 /* PageControl.h */,
+				6E0659EB169C9C96004ACFA5 /* PageControl.m */,
+				6E296C3D1687AD47002A1402 /* ClockMainViewController.h */,
+				6E296C3E1687AD47002A1402 /* ClockMainViewController.m */,
+				6E296C411687AEA6002A1402 /* CustomClockViewController.h */,
+				6E296C421687AEA6002A1402 /* CustomClockViewController.m */,
 				6EE08D1D1649EECF001D3A8C /* DopplerCounterViewController.h */,
 				6EE08D1E1649EECF001D3A8C /* DopplerCounterViewController.m */,
 				6E6977A01676500500AD2907 /* CounterRequest.h */,
@@ -151,10 +147,6 @@
 				6E25B9C1166F913600D70046 /* ClockBViewController.m */,
 				6E25B9D0166FB77700D70046 /* ClockCViewController.h */,
 				6E25B9D1166FB77700D70046 /* ClockCViewController.m */,
-				6E6977931676302C00AD2907 /* ClockDViewController.h */,
-				6E6977941676302C00AD2907 /* ClockDViewController.m */,
-				6E6977961676305100AD2907 /* ClockEViewController.h */,
-				6E6977971676305100AD2907 /* ClockEViewController.m */,
 				6EE08D0C1649EECF001D3A8C /* Supporting Files */,
 			);
 			path = "DMS Doppler Counter";
@@ -227,20 +219,13 @@
 				6EE08D101649EECF001D3A8C /* InfoPlist.strings in Resources */,
 				6EE08D191649EECF001D3A8C /* MainStoryboard_iPhone.storyboard in Resources */,
 				6EE08D1C1649EECF001D3A8C /* MainStoryboard_iPad.storyboard in Resources */,
-				6EE08D2F1649F4AA001D3A8C /* card0.png in Resources */,
-				6EE08D301649F4AA001D3A8C /* card1.png in Resources */,
-				6EE08D311649F4AA001D3A8C /* card2.png in Resources */,
-				6EE08D321649F4AA001D3A8C /* card3.png in Resources */,
-				6EE08D331649F4AA001D3A8C /* card4.png in Resources */,
-				6EE08D341649F4AA001D3A8C /* card5.png in Resources */,
-				6EE08D351649F4AA001D3A8C /* card6.png in Resources */,
-				6EE08D361649F4AA001D3A8C /* card7.png in Resources */,
-				6EE08D371649F4AA001D3A8C /* card8.png in Resources */,
-				6EE08D381649F4AA001D3A8C /* card9.png in Resources */,
 				6E6A30D016739E53009BDE91 /* IOS_CounterApp.png in Resources */,
 				6E6977871676175B00AD2907 /* arrow.png in Resources */,
 				6E69778D16761C6F00AD2907 /* logoDopplerMedium.png in Resources */,
 				6E69778F1676217300AD2907 /* backgroundClock.png in Resources */,
+				6EC038E0168E6A8B00CEBAB2 /* buttonForDrag.png in Resources */,
+				6EC038ED168E7B1D00CEBAB2 /* logoDopplerLitle.png in Resources */,
+				6E852FD116A4DD1C00045041 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,9 +242,10 @@
 				6E25B9C2166F913600D70046 /* ClockBViewController.m in Sources */,
 				6E25B9D2166FB77700D70046 /* ClockCViewController.m in Sources */,
 				6E697792167627D700AD2907 /* ClockAViewController.m in Sources */,
-				6E6977951676302D00AD2907 /* ClockDViewController.m in Sources */,
-				6E6977981676305100AD2907 /* ClockEViewController.m in Sources */,
 				6E6977A21676500500AD2907 /* CounterRequest.m in Sources */,
+				6E296C3F1687AD47002A1402 /* ClockMainViewController.m in Sources */,
+				6E296C431687AEA6002A1402 /* CustomClockViewController.m in Sources */,
+				6E0659EC169C9C96004ACFA5 /* PageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +285,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -325,6 +312,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -346,7 +334,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DMS Doppler Counter/DMS Doppler Counter-Prefix.pch";
 				INFOPLIST_FILE = "DMS Doppler Counter/DMS Doppler Counter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -357,7 +347,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DMS Doppler Counter/DMS Doppler Counter-Prefix.pch";
 				INFOPLIST_FILE = "DMS Doppler Counter/DMS Doppler Counter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

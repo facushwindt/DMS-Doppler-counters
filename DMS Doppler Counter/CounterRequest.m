@@ -20,20 +20,48 @@
     return [[[NSUserDefaults standardUserDefaults] arrayForKey:@"StoredValues"]mutableCopy];
 }
 
-+(NSMutableArray*)start{
-    NSData *result = [self jsonPOSTDopplerRequest];
-    NSError *error = nil;
-    NSDictionary *rta = [NSJSONSerialization JSONObjectWithData:result options:NSJSONReadingMutableContainers error:&error];
-    if(error == nil){
-        NSMutableArray *ma = [rta valueForKey:@"d"];
-        NSLog(@"%@",ma);
-        NSLog(@"%@",[ma objectAtIndex:0]);
-        [self saveInUserDefault:ma];
-        return ma;
-    }
-    return nil;
++(BOOL)recheableWIFI{
+    NSString *URLString = [NSString stringWithContentsOfURL:[NSURL URLWithString:@"http://www.google.com"]];
+    NSString *URLStringFace = [NSString stringWithContentsOfURL:[NSURL URLWithString:@"http://www.facebook.com"]];
+    return ( URLString != NULL || URLStringFace != NULL) ? YES : NO;
 }
 
++(void)start{
+    
+    
+        dispatch_queue_t requestQueue = dispatch_queue_create("REQUEST", NULL);
+        dispatch_async(requestQueue, ^{
+            if([self recheableWIFI]){
+                NSData *result = [self jsonPOSTDopplerRequest];
+                NSError *error = nil;
+                NSDictionary *rta = [NSJSONSerialization JSONObjectWithData:result options:NSJSONReadingMutableContainers error:&error];
+                
+                dispatch_sync(dispatch_get_main_queue(), ^{
+                    if(error == nil){
+                        NSMutableArray *ma = [rta valueForKey:@"d"];
+                        NSLog(@"%@",ma);
+                        NSLog(@"%@",[ma objectAtIndex:0]);
+                        [self saveInUserDefault:ma];
+                        
+                    }
+                });
+            }
+        });
+    dispatch_release(requestQueue);
+
+    
+//            NSData *result = [self jsonPOSTDopplerRequest];
+//            NSError *error = nil;
+//            NSDictionary *rta = [NSJSONSerialization JSONObjectWithData:result options:NSJSONReadingMutableContainers error:&error];
+//            if(error == nil){
+//                NSMutableArray *ma = [rta valueForKey:@"d"];
+//                NSLog(@"%@",ma);
+//                NSLog(@"%@",[ma objectAtIndex:0]);
+//                [self saveInUserDefault:ma];
+//                
+//            }
+
+}
 
 +(id)jsonPOSTDopplerRequest{
     //url to request
