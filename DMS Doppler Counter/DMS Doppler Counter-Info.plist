@@ -17,6 +17,10 @@
 				<string>Default-Portrait@2x~ipad.png</string>
 				<string>Default.png</string>
 				<string>Default@2x.png</string>
+				<string>iphoneDopplerIcon.png</string>
+				<string>iPhoneDopplerIconRetina.png</string>
+				<string>iPadDopplerIcon.png</string>
+				<string>iPadDopplerIconRetina.png</string>
 			</array>
 		</dict>
 	</dict>

@@ -19,6 +19,10 @@
 		6E6977A21676500500AD2907 /* CounterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6977A11676500500AD2907 /* CounterRequest.m */; };
 		6E6A30D016739E53009BDE91 /* IOS_CounterApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6A30CF16739E53009BDE91 /* IOS_CounterApp.png */; };
 		6E852FD116A4DD1C00045041 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E852FCF16A4D92700045041 /* Default@2x.png */; };
+		6E91C88E16B6C00E00FDDE8B /* iphoneDopplerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E91C88D16B6C00D00FDDE8B /* iphoneDopplerIcon.png */; };
+		6E91C89116B6C03400FDDE8B /* iPhoneDopplerIconRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E91C89016B6C03400FDDE8B /* iPhoneDopplerIconRetina.png */; };
+		6E91C89316B6C0AA00FDDE8B /* iPadDopplerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E91C89216B6C0AA00FDDE8B /* iPadDopplerIcon.png */; };
+		6E91C89516B6C0B300FDDE8B /* iPadDopplerIconRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E91C89416B6C0B300FDDE8B /* iPadDopplerIconRetina.png */; };
 		6EC038E0168E6A8B00CEBAB2 /* buttonForDrag.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EC038DF168E6A8B00CEBAB2 /* buttonForDrag.png */; };
 		6EC038ED168E7B1D00CEBAB2 /* logoDopplerLitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EC038EC168E7B1D00CEBAB2 /* logoDopplerLitle.png */; };
 		6EC038EF168F1E5500CEBAB2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC038EE168F1E5500CEBAB2 /* QuartzCore.framework */; };
@@ -55,10 +59,14 @@
 		6E852FCB16A4D86D00045041 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		6E852FCD16A4D89F00045041 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6E852FCF16A4D92700045041 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6E91C88D16B6C00D00FDDE8B /* iphoneDopplerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneDopplerIcon.png; sourceTree = "<group>"; };
+		6E91C89016B6C03400FDDE8B /* iPhoneDopplerIconRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneDopplerIconRetina.png; sourceTree = "<group>"; };
+		6E91C89216B6C0AA00FDDE8B /* iPadDopplerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadDopplerIcon.png; sourceTree = "<group>"; };
+		6E91C89416B6C0B300FDDE8B /* iPadDopplerIconRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPadDopplerIconRetina.png; sourceTree = "<group>"; };
 		6EC038DF168E6A8B00CEBAB2 /* buttonForDrag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonForDrag.png; sourceTree = "<group>"; };
 		6EC038EC168E7B1D00CEBAB2 /* logoDopplerLitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoDopplerLitle.png; sourceTree = "<group>"; };
 		6EC038EE168F1E5500CEBAB2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		6EE08D011649EECF001D3A8C /* DMS Doppler Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DMS Doppler Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE08D011649EECF001D3A8C /* Doppler DMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Doppler DMS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE08D051649EECF001D3A8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6EE08D071649EECF001D3A8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6EE08D091649EECF001D3A8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -92,6 +100,10 @@
 		6EE08CF61649EECE001D3A8C = {
 			isa = PBXGroup;
 			children = (
+				6E91C89416B6C0B300FDDE8B /* iPadDopplerIconRetina.png */,
+				6E91C89216B6C0AA00FDDE8B /* iPadDopplerIcon.png */,
+				6E91C89016B6C03400FDDE8B /* iPhoneDopplerIconRetina.png */,
+				6E91C88D16B6C00D00FDDE8B /* iphoneDopplerIcon.png */,
 				6E852FCF16A4D92700045041 /* Default@2x.png */,
 				6E852FCD16A4D89F00045041 /* Default.png */,
 				6E852FCB16A4D86D00045041 /* Default-Portrait@2x~ipad.png */,
@@ -104,7 +116,7 @@
 		6EE08D021649EECF001D3A8C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6EE08D011649EECF001D3A8C /* DMS Doppler Counter.app */,
+				6EE08D011649EECF001D3A8C /* Doppler DMS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,7 +194,7 @@
 			);
 			name = "DMS Doppler Counter";
 			productName = "DMS Doppler Counter";
-			productReference = 6EE08D011649EECF001D3A8C /* DMS Doppler Counter.app */;
+			productReference = 6EE08D011649EECF001D3A8C /* Doppler DMS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -226,6 +238,10 @@
 				6EC038E0168E6A8B00CEBAB2 /* buttonForDrag.png in Resources */,
 				6EC038ED168E7B1D00CEBAB2 /* logoDopplerLitle.png in Resources */,
 				6E852FD116A4DD1C00045041 /* Default@2x.png in Resources */,
+				6E91C88E16B6C00E00FDDE8B /* iphoneDopplerIcon.png in Resources */,
+				6E91C89116B6C03400FDDE8B /* iPhoneDopplerIconRetina.png in Resources */,
+				6E91C89316B6C0AA00FDDE8B /* iPadDopplerIcon.png in Resources */,
+				6E91C89516B6C0B300FDDE8B /* iPadDopplerIconRetina.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +351,7 @@
 				GCC_PREFIX_HEADER = "DMS Doppler Counter/DMS Doppler Counter-Prefix.pch";
 				INFOPLIST_FILE = "DMS Doppler Counter/DMS Doppler Counter-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Doppler DMS";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -348,7 +364,7 @@
 				GCC_PREFIX_HEADER = "DMS Doppler Counter/DMS Doppler Counter-Prefix.pch";
 				INFOPLIST_FILE = "DMS Doppler Counter/DMS Doppler Counter-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Doppler DMS";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};

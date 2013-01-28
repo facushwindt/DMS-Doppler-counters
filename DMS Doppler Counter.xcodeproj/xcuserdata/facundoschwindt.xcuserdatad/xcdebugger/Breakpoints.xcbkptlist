@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "DMS Doppler Counter/DopplerCounterViewController.m"
-         timestampString = "380596520.063325"
+         timestampString = "381076324.831862"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "5293"
-         endingLineNumber = "5293"
+         startingLineNumber = "5302"
+         endingLineNumber = "5302"
          landmarkName = "@implementation DopplerCounterViewController"
          landmarkType = "3">
       </FileBreakpoint>
@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "DMS Doppler Counter/DopplerCounterViewController.m"
-         timestampString = "380571958.52388"
+         timestampString = "381076324.831862"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "761"
-         endingLineNumber = "761"
+         startingLineNumber = "776"
+         endingLineNumber = "776"
          landmarkName = "-viewDidUnload"
          landmarkType = "5">
       </FileBreakpoint>
@@ -47,11 +47,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "DMS Doppler Counter/DopplerCounterViewController.m"
-         timestampString = "380571958.52388"
+         timestampString = "381076324.831862"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "937"
-         endingLineNumber = "937"
+         startingLineNumber = "952"
+         endingLineNumber = "952"
          landmarkName = "-viewDidUnload"
          landmarkType = "5">
       </FileBreakpoint>
@@ -86,11 +86,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "DMS Doppler Counter/DopplerCounterViewController.m"
-         timestampString = "380571958.52388"
+         timestampString = "381076324.831862"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "764"
-         endingLineNumber = "764"
+         startingLineNumber = "779"
+         endingLineNumber = "779"
          landmarkName = "-viewDidUnload"
          landmarkType = "5">
       </FileBreakpoint>
@@ -203,11 +203,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "DMS Doppler Counter/DopplerCounterViewController.m"
-         timestampString = "380593376.182598"
+         timestampString = "381076324.831862"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "1149"
-         endingLineNumber = "1149"
+         startingLineNumber = "1164"
+         endingLineNumber = "1164"
          landmarkName = "-calculateLargestSentCampaignForAnimation"
          landmarkType = "5">
       </FileBreakpoint>
@@ -229,11 +229,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "DMS Doppler Counter/DopplerCounterViewController.m"
-         timestampString = "380596520.063325"
+         timestampString = "381076324.831862"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "1573"
-         endingLineNumber = "1573"
+         startingLineNumber = "1589"
+         endingLineNumber = "1589"
          landmarkName = "-calculateDaysSinceStartUpForAnimation"
          landmarkType = "5">
       </FileBreakpoint>
@@ -261,45 +261,6 @@
          startingLineNumber = "26"
          endingLineNumber = "26"
          landmarkName = "+recheableWIFI"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "DMS Doppler Counter/DopplerCounterViewController.m"
-         timestampString = "380596520.063325"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "1427"
-         endingLineNumber = "1427"
-         landmarkName = "-paraBorrar"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "DMS Doppler Counter/DopplerCounterViewController.m"
-         timestampString = "380596520.063325"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "1379"
-         endingLineNumber = "1379"
-         landmarkName = "-paraBorrar"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "DMS Doppler Counter/DopplerCounterViewController.m"
-         timestampString = "380596520.063325"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "1372"
-         endingLineNumber = "1372"
-         landmarkName = "-paraBorrar"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

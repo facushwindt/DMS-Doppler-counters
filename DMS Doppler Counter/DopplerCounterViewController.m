@@ -606,19 +606,34 @@ int campaingsSentTodayValue =-1111111;
     [self calculateHistoryCampaingsSentForAnimation];
 }
 
-- (IBAction)stopTimer:(id)sender {
-    [self.aTimer invalidate];
-    self.aTimer = nil;
-}
-- (IBAction)start:(id)sender {
-    if(!self.aTimer){
-        self.aTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 
-                                                       target:self 
-                                                     selector:@selector(calculateDaysSinceStartUpForAnimation) 
-                                                     userInfo:nil 
-                                                      repeats:YES];
-    }
-}
+//TIP2 ... UNCOMMET BELOW CODE TO TEST TIMERS ... DROP BUTTON TO STORYBOARD AND CONNECT
+
+//- (IBAction)stopTimer:(id)sender {
+//    [self.aTimer invalidate];
+//    self.aTimer = nil;
+//}
+//- (IBAction)start:(id)sender {
+//    if(!self.aTimer){
+//        self.aTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 
+//                                                       target:self 
+//                                                     selector:@selector(calculateDaysSinceStartUpForAnimation) 
+//                                                     userInfo:nil 
+//                                                      repeats:YES];
+//    }
+//}
+
+
+
+//TIP3 ... UNCOMMET BELOW CODE TO TEST ANIMATION ... DROP BUTTON TO STORYBOARD AND CONNECT (REQUEST!)
+
+//- (IBAction)requestButton:(id)sender {
+//    [self calculateDaysSinceStartUpForAnimation];
+//    [self calculateLargestSentCampaignForAnimation]; 
+//    [self calculateEmailsSentTodayForAnimation];
+//    [self calculateCampaingSentTodayForAnimation];
+//    [self calculateHistoryEmailsSentForAnimation];
+//    [self calculateHistoryCampaingsSentForAnimation];
+//}
 
 
 
@@ -1355,7 +1370,7 @@ int campaingsSentTodayValue =-1111111;
     }
 }
 
-//  TIP: CONECT THIS CODE (IBACTION) IS YOU WANT TO MADE SOME TESTING !!!
+//  TIP: DRAG AND DROP A SET BUTTON AND CONECT TO THIS CODE (IBACTION) IS YOU WANT TO MADE SOME TESTING !!! 
 
 - (IBAction)cargarValoresFijos_:(id)sender {
     largestSentCampaignValue = 2000000;
@@ -1915,14 +1930,7 @@ int campaingsSentTodayValue =-1111111;
 
 
 
-- (IBAction)requestButton:(id)sender {
-    [self calculateDaysSinceStartUpForAnimation];
-    [self calculateLargestSentCampaignForAnimation]; 
-    [self calculateEmailsSentTodayForAnimation];
-    [self calculateCampaingSentTodayForAnimation];
-    [self calculateHistoryEmailsSentForAnimation];
-    [self calculateHistoryCampaingsSentForAnimation];
-}
+
 
 
 
